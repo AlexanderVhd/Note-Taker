@@ -13,6 +13,8 @@
 		3D04D54721B0D2E500B3648F /* Assignment_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D04D54521B0D2E500B3648F /* Assignment_2.xcdatamodeld */; };
 		3D04D54921B0D2E500B3648F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D04D54821B0D2E500B3648F /* Assets.xcassets */; };
 		3D04D54C21B0D2E500B3648F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D04D54A21B0D2E500B3648F /* LaunchScreen.storyboard */; };
+		3D04D55421B0D36100B3648F /* NotebookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04D55321B0D36100B3648F /* NotebookTableViewController.swift */; };
+		3D04D55621B0D9AF00B3648F /* PageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04D55521B0D9AF00B3648F /* PageTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3D04D54821B0D2E500B3648F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D04D54B21B0D2E500B3648F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D04D54D21B0D2E500B3648F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D04D55321B0D36100B3648F /* NotebookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookTableViewController.swift; sourceTree = "<group>"; };
+		3D04D55521B0D9AF00B3648F /* PageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				3D04D53E21B0D2E500B3648F /* AppDelegate.swift */,
 				3D04D54021B0D2E500B3648F /* ViewController.swift */,
 				3D04D54221B0D2E500B3648F /* Main.storyboard */,
+				3D04D55521B0D9AF00B3648F /* PageTableViewController.swift */,
+				3D04D55321B0D36100B3648F /* NotebookTableViewController.swift */,
 				3D04D54821B0D2E500B3648F /* Assets.xcassets */,
 				3D04D54A21B0D2E500B3648F /* LaunchScreen.storyboard */,
 				3D04D54D21B0D2E500B3648F /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D04D55421B0D36100B3648F /* NotebookTableViewController.swift in Sources */,
 				3D04D54721B0D2E500B3648F /* Assignment_2.xcdatamodeld in Sources */,
 				3D04D54121B0D2E500B3648F /* ViewController.swift in Sources */,
+				3D04D55621B0D9AF00B3648F /* PageTableViewController.swift in Sources */,
 				3D04D53F21B0D2E500B3648F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
